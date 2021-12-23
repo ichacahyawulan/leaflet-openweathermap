@@ -1,0 +1,12 @@
+#container {
+    display: flex !important;
+    height: 100%;
+    width: 100%;
+}
+
+#map {
+    position: relative !important;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}

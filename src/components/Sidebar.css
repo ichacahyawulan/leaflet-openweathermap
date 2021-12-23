@@ -1,0 +1,19 @@
+.sidebar {
+    height: 100vh !important;
+    width: 5vw !important; 
+    border-radius: 0px !important;
+}
+
+.sidebar button {
+    border-radius: 0px;
+}
+
+.offcanvas {
+    height: 100%;
+    width: 350px;
+    margin-left: 5vw;
+}
+
+.checkbox-collapse {
+    margin-left: 20px;
+}
