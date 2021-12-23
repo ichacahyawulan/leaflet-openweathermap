@@ -51,7 +51,7 @@ class Map extends Component {
     }
 
     addWeatherLayertoMap (layer) {
-        const myAppId= '9bc809c7e6962e34795828fac326d19c'
+        const myAppId= '' // insert your ID from https://openweathermap.org/api here
         const weather = []
         if (layer.length > 0) {
             for (let i=0; i<layer.length; i++) {
