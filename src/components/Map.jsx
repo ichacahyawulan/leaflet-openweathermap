@@ -4,12 +4,6 @@ import * as L from 'leaflet'
 import "leaflet-openweathermap"
 import "leaflet-openweathermap/leaflet-openweathermap.js"
 import "leaflet-openweathermap/leaflet-openweathermap.css"
-import "wind-js-leaflet"
-import "wind-js-leaflet/dist/wind-js-leaflet.js"
-import "wind-js-leaflet/dist/wind-js-leaflet.css"
-import "leaflet-velocity"
-import "leaflet-velocity/dist/leaflet-velocity.js"
-import "leaflet-velocity/dist/leaflet-velocity.css"
 import { Component } from 'react'
 import { connect } from 'react-redux';
 import Sidebar from './Sidebar'
@@ -88,18 +82,6 @@ class Map extends Component {
                         break;
                     case "wind":
                         weather[i] = L.OWM.wind({appId: myAppId, showTimestamp: true});
-                        break;
-                    case "windglb":
-                        weather[i] = L.velocityLayer({
-                            displayValues: true,
-                            displayOptions: {
-                              velocityType: "Global Wind",
-                              displayPosition: "bottomleft",
-                              displayEmptyString: "No wind data"
-                            },
-                            data: data,
-                            maxVelocity: 10
-                          });                       
                         break;
                     default:
                         return null
