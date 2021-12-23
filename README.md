@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Before you run this project, get [openweathermap API ID](https://openweathermap.org/api) and copy your ID to [this line](https://github.com/ichacahyawulan/leaflet-openweathermap/blob/main/src/components/Map.jsx#L54).
+Before you run this project, get [openweathermap API ID](https://openweathermap.org/api) and copy your ID to [this line](https://github.com/ichacahyawulan/leaflet-openweathermap/blob/main/src/components/Map.jsx#L48).
 
 In the project directory, you can run:
 
