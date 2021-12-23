@@ -10,7 +10,6 @@ export const layers = {
         { name: "Pressure", value: "pressure" },
         { name: "Pressure Contour", value: "pressurecntr" },
         { name: "Temperature", value: "temp" },
-        { name: "Wind", value: "wind" },
-        { name: "Wind Global", value: "windglb" }
+        { name: "Wind", value: "wind" }
     ]
 }
